@@ -3,7 +3,8 @@ import curser from '../assets/cursorPagethree.png'
 
 const PageThree = () => {
   return (
-    <div className=' w-full h-screen flex 
+    <div className='   lg:w-[100%] lg:h-[800px] flex 
+                       md:w-[100%] md:h-screen
     sm:flex-row
     vsm:flex-col
     '>

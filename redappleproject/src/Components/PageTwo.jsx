@@ -4,9 +4,11 @@ import secondPageButton from '../assets/SecondPageButton.png'
 
 const PageTwo = () => {
   return (
-    <div className=' w-full h-screen flex flex-col  items-center'>
+    <div className='flex flex-col  items-center lg:w-[100%] lg:h-[700px]
+                                                md:w-[100%] md:h-[700px]
+                                                 '>
       <div
-        className='flex flex-col  items-center
+        className=' flex flex-col  items-center
                       lg:w-[1000px] lg:h-[250px] lg:mt-[30px]
                       md:w-[600px] md:h-[200px]  md:mt-[20px] 
                       sm:w-[500px] sm:h-[250px]
@@ -22,7 +24,7 @@ const PageTwo = () => {
           We are here for you
         </p>
         <p
-          className='font-Poppins 
+          className='font-Poppins  
                           lg:mt-[10px] lg:text-[16px] 
                           md:text-[17px] md:mt-[10px]
                           sm:text-[16px]

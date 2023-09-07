@@ -8,7 +8,7 @@ import fourtysevenk from '../assets/47k+.png'
 const PageFour = () => {
   return (
     <div
-      className='lg:w-full lg:h-[850px]
+      className='bg-cover lg:w-full lg:h-[850px]
                   md:w-full md:h-[770px]
                   sm:w-full sm:h-[780px]
                   vsm:w-full vsm:h-[1760px]'
