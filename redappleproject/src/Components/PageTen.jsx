@@ -7,10 +7,10 @@ import button from "../assets/SecondPageButton.png"
 const PageTen = () => {
   return (
 
-    <div className=' w-full h-[800px]'>
+    <div className=' w-full h-[700px]'>
       <div className=' flex flex-col justify-center items-center'>
         <div
-          className='bg-red-200 flex flex-col justify-center items-center
+          className=' flex flex-col justify-center items-center
                                        lg:w-[100%] lg:h-[200px] lg:mt-[10px]
                                        md:w-[100%]  md:h-[200px] md:mt-[100px] 
                                        sm:w-[100%]  sm:h-[150px] sm:mt-[70px] 
