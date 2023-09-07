@@ -4,12 +4,12 @@ import curser from '../assets/cursorPagethree.png'
 const PageThree = () => {
   return (
     <div className='   lg:w-[100%] lg:h-[800px] flex 
-                       md:w-[100%] md:h-screen
+                       md:w-[100%] md:h-[800px]
     sm:flex-row
     vsm:flex-col
     '>
       <div
-        className=' flex justify-center items-center relative z-10  sm:w-[40%] sm:h-screen border-t-2 sm:border-r-2 sm:border-b-0 
+        className='  flex justify-center items-center relative z-10  sm:w-[40%] sm:h-[800px] border-t-2 sm:border-r-2 sm:border-b-0 
          vsm:h-[300px] vsm:border-b-2
             '
       >
@@ -37,7 +37,7 @@ const PageThree = () => {
         </p>
       </div>
 
-      <div className=' sm:w-[15%]  sm:h-screen flex flex-col justify-center items-center  sm:border-t-2 sm:border-r-2 vsm:border-b-2 sm:border-b-0'>
+      <div className=' sm:w-[15%]  sm:h-[800px] flex flex-col justify-center items-center  sm:border-t-2 sm:border-r-2 vsm:border-b-2 sm:border-b-0'>
 
         <div className=' flex justify-center items-center sm:-rotate-90 font-Lora font-normal
         lg:w-[600px] lg:h-[106px]  lg:text-[70px]
@@ -49,7 +49,7 @@ const PageThree = () => {
         </div>
        
 
-       <div className=' overflow-auto sm:w-[45%] sm:h-screen flex flex-col items-center justify-around sm:border-t-2 
+       <div className=' overflow-auto sm:w-[45%] sm:h-[800px] flex flex-col items-center justify-around sm:border-t-2 
                          '>
             <div className=' w-[70%] h-[25%] flex flex-col  justify-center'>
                    <div className='font-normal font-Poppins 

@@ -12,7 +12,7 @@ const PageEight = () => {
   return (
     <div>
       <div
-        className='relative lg:bg-cover lg:w-full lg:h-[760px]
+        className=' relative lg:bg-cover lg:w-full lg:h-[760px]
                                          md:w-full md:h-[700px]
                                         sm:w-full sm:h-[650px] sm:block hideen
                                         vsm:w-full vsm:h-[800px] vsm:bg-cover
@@ -65,7 +65,7 @@ const PageEight = () => {
         </div>
 
         <div
-          className='absolute z-20 lg:left-32   lg:bottom-0   lg:right-0
+          className=' absolute z-20 lg:left-32   lg:bottom-0   lg:right-0
                                       md:left-24   md:bottom-0   md:right-0
                                       sm:left-[120px]   sm:bottom-0   sm:right-0
                                       vsm:left-0    vsm:bottom-0  vsm:right-0'
@@ -93,23 +93,26 @@ const PageEight = () => {
           
 
           <div
-            className='flex sm:flex-row justify-evenly items-center absolute   lg:w-[90%] lg:h-full  lg:top-0 lg:right-0 lg:mt-0   z-30
-                                                                               md:w-[90%] md:h-full md:top-0 md:right-0 md:mt-0
-                                                                                sm:w-[90%] sm:h-full sm:top-0  sm:right-0 sm:mt-0
-                                                      vsm:flex-col vsm:w-[100%] vsm:h-[360px] vsm:top-0 vsm:right-0 vsm:mt-[30px]'
+            className=' flex sm:flex-row justify-evenly items-center absolute   lg:w-[90%] lg:h-full  lg:top-0 lg:right-0 lg:mt-0   z-30 lg:mr-0
+                                                                               md:w-[90%] md:h-full md:top-0 md:right-0 md:mt-0 md:mr-0
+                                                                                sm:w-[90%] sm:h-full sm:top-0  sm:right-0 sm:mt-0 sm:mr-0
+                                                                                ssm:w-[95%] ssm:h-full ssm:top-0 ssm:right-0 ssm:mt-0 ssm:mr-[15px]
+                                                      vsm:flex-col vsm:w-[90%] vsm:h-[360px] vsm:top-0 vsm:right-0 vsm:mt-[30px] vsm:mr-[20px]'
           >
             <div
-              className='flex flex-col justify-evenly   lg:w-[200px] lg:h-[120px]
+              className=' flex flex-col justify-evenly   lg:w-[200px] lg:h-[120px]
                                                             md:w-[160px] md:h-[100px]
-                                                           sm:w-[130px] sm:h-[100px]
-                                                           vsm:w-[200px] vsm:h-[100px]
+                                                           sm:w-[130px] sm:h-[100px] sm:border-b-0
+                                                           ssm:w-[70%] ssm:h-[100px] ssm:border-b-2
+                                                           vsm:w-[70%] vsm:h-[100px] vsm:border-b-2
                                                           '
             >
               <div
-                className='font-Lora font-normal text-[#ffff]  lg:text-[35px]
+                className=' font-Lora font-normal text-[#ffff]  lg:text-[35px]
                                                                           md:text-[25px]
                                                                           sm:text-[23px]
-                                                                          vsm:text-[27px]'
+                                                                          ssm:text-[25px]
+                                                                          vsm:text-[25px]'
               >
                 Benifits
               </div>
@@ -117,17 +120,19 @@ const PageEight = () => {
                 className='font-Poppins font-normal text-[#ffff]  lg:text-[16px] lg:mt-[5px]
                                                                             md:text-[14px] md:mt-[5px]
                                                                             sm:text-[12px] sm:mt-[5px]
-                                                                            vsm:text-[14px]'
+                                                                            ssm:text-[13px]
+                                                                            vsm:text-[13px]'
               >
                 Get your reselling hassle free from no where
               </div>
             </div>
 
             <div
-              className=' lg:w-[200px] lg:h-[120px] 
+              className='  lg:w-[200px] lg:h-[120px] 
                                           md:w-[140px] md:h-[100px]
-                                          sm:w-[130px] sm:h-[100px]
-                                          vsm:w-[150px] vsm:h-[100px]'
+                                          sm:w-[70%] sm:h-[100px] sm:border-b-0
+                                          ssm:w-[70%] ssm:h-[100px] ssm:border-b-2 
+                                          vsm:w-[70%] vsm:h-[100px] vsm:border-b-2'
             >
               <div className='flex flex-col justify-center items-center '>
                 <img
@@ -136,12 +141,14 @@ const PageEight = () => {
                   className='lg:w-[50px] lg:h-[50px]
                                   md:w-[50px] md:h-[50px]
                                   sm:w-[40px] sm:h-[40px]
-                                  vsm:w-[50px] vsm:h-[50px]'
+                                  ssm:w-[35px] ssm:h-[35px]
+                                  vsm:w-[35px] vsm:h-[35px]'
                 />
                 <p
                   className='font-Lora font-normal text-[#ffff] lg:text-[16px] lg:mt-[15px]
                                                                         md:text-[15px] md:mt-[10px]
                                                                         sm:text-[16px] sm:mt-[8px]
+                                                                        ssm:text-[15px] ssm:mt-[10px]
                                                                         vsm:text-[18px] vsm:mt-[5px]'
                 >
                   No Capital Needed
@@ -150,10 +157,11 @@ const PageEight = () => {
             </div>
 
             <div
-              className='lg:w-[250px] lg:h-[150px]
+              className='  lg:w-[250px] lg:h-[150px]
                                           md:w-[200px] md:h-[120px]
                                           sm:w-[200px] sm:h-[130px]
-                                          vsm:w-[250px] vsm:[130px]'
+                                          ssm:w-[70%] ssm:h-[130px]
+                                          vsm:w-[70%] vsm:[130px]'
             >
               <div className='flex flex-col justify-center items-center'>
                 <img
@@ -162,21 +170,24 @@ const PageEight = () => {
                   className='lg:w-[50px] lg:h-[50px] 
                                  md:w-[40px] md:h-[40px]
                                  sm:w-[40px] sm:h-[40px]
-                                 vsm:w-[50px] vsm:h-[50px]'
+                                 ssm:w-[40px] ssm:h-[40px]
+                                 vsm:w-[40px] vsm:h-[40px]'
                 />
                 <p
-                  className='font-Lora font-normal text-[#ffff] lg:text-[18px]
+                  className='font-Lora font-normal text-[#ffff] lg:text-[22px]
                                                                         md:text-[16px]
                                                                         sm:text-[17px]
-                                                                        vsm:text-[18px]'
+                                                                        ssm:text-[17px]
+                                                                        vsm:text-[17px]'
                 >
                   Drop shipping facility
                 </p>
                 <p
-                  className='font-Poppins font-normal text-[#ffff] lg:text-[16px] lg:w-[250px] lg:mt-[5px]
-                                                                          md:text-[13px] md:w-[200px] md:mt-[5px]
-                                                                          sm:text-[13px] sm:w-[200px] sm:mt-[5px]
-                                                                          vsm:text-[15px] vsm:w-[200px] vsm:mt-[5px]'
+                  className=' font-Poppins font-normal text-[#ffff] lg:text-[16px] lg:w-[250px] lg:mt-[5px] lg:ml-[40px]
+                                                                          md:text-[13px] md:w-[200px] md:mt-[5px] md:ml-[40px]
+                                                                          sm:text-[13px] sm:w-[200px] sm:mt-[5px] sm:ml-[40px]
+                                                                          ssm:text-[13px]
+                                                                          vsm:text-[13px] vsm:w-[200px] vsm:mt-[5px]'
                 >
                   All popular fashion designers products are available on our
                   all outlets.
