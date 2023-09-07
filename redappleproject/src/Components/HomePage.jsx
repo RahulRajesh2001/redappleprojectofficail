@@ -13,8 +13,8 @@ const HomePage = () => {
            md:w-[650px] md:h-[200px] 
            lg:w-[700px] lg:h-[250px] '
           >
-            <p className='font-Lora font-normal text-[#ffff] vsm:text-[32px]  sm:text-[45px] md:text-[65px] lg:text-[65px]'>Your One-Stop Shop</p>
-            <p className='font-Lora font-normal text-[#ffff] vsm:text-[32px]  sm:text-[45px] md:text-[65px] lg:text-[65px]'>for Wholesale Fashion</p>
+            <p className='font-serif font-normal text-[#ffff] vsm:text-[32px]  sm:text-[45px] md:text-[65px] lg:text-[65px]'>Your One-Stop Shop</p>
+            <p className='font-serif font-normal text-[#ffff] vsm:text-[32px]  sm:text-[45px] md:text-[65px] lg:text-[65px]'>for Wholesale Fashion</p>
           </div>
         </div>
       </div>
