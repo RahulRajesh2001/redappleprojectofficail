@@ -24,7 +24,7 @@ const PageTwo = () => {
           We are here for you
         </p>
         <p
-          className='font-Poppins  
+          className='font-Poppins   w-[90%]
                           lg:mt-[10px] lg:text-[16px] 
                           md:text-[17px] md:mt-[10px]
                           sm:text-[16px]
