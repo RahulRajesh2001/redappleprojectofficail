@@ -38,7 +38,7 @@ const PageEight = () => {
                                                                                     '
           >
             <div
-              className='font-Lora font-normal text-[#ffff] lg:h-[60px] lg:text-[50px]
+              className='font-serif font-normal text-[#ffff] lg:h-[60px] lg:text-[50px]
                                                                   md:h-[50px] md:text-[40px]
                                                                   sm:h-[40px] sm:text-[30px] sm:block
                                                                   vsm:h-[40px] vsm:text-[27px] '
@@ -46,7 +46,7 @@ const PageEight = () => {
               Together, let’s create the{' '}
             </div>
             <div
-              className='font-Lora font-normal text-[#ffff]  lg:h-[60px] lg:text-[50px]
+              className='font-serif font-normal text-[#ffff]  lg:h-[60px] lg:text-[50px]
                                                                     md:h-[50px] md:text-[40px]
                                                                     sm:h-[40px] sm:text-[30px]
                                                                     vsm:h-[40px] vsm:text-[27px]'
@@ -54,7 +54,7 @@ const PageEight = () => {
               next generation{' '}
             </div>
             <div
-              className='font-Lora font-normal text-[#ffff] lg:h-[60px] lg:text-[50px]
+              className='font-serif font-normal text-[#ffff] lg:h-[60px] lg:text-[50px]
                                                                    md:h-[50px] md:text-[40px]
                                                                    sm:h-[40px] sm:text-[30px]
                                                                    vsm:h-[40px] vsm:text-[27px]'
