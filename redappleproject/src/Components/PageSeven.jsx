@@ -8,7 +8,7 @@ import gif3 from "../assets/gif3.png"
 import glassgif3 from "../assets/glassgif3.png"
 import gif4 from "../assets/gif4.png"
 import glassgif4 from "../assets/glassgif4.png"
-import pagesevenbutton from '../assets/pageSevenButton.png'
+import PageSevenButton from '../assets/PageSevenButton.png'
 
 const PageSeven = () => {
   return (
@@ -199,7 +199,7 @@ const PageSeven = () => {
                                                              sm:w-[180px] sm:h-[50px] sm:mt-[20px]
                                                              vsm:w-[150px] vsm:h-[50px] vsm:mt-[20px]'>
             <img
-              src={pagesevenbutton}
+              src={PageSevenButton}
               alt=''
               className='lg:w-[200px] lg:h-[50px]
                           md:w-[200px md:h-[40px]
