@@ -20,6 +20,7 @@ const PageTen = () => {
             className='font-serif font-normal lg:text-[50px] 
                                               md:text-[40px]
                                               sm:text-[40px]
+                                              ssm:text-[35px]
                                               vsm:text-[30px]'
           >
             Let's build a{' '}
@@ -28,6 +29,7 @@ const PageTen = () => {
             className='font-serif font-normal  lg:text-[50px] 
                                               md:text-[40px]
                                               sm:text-[40px]
+                                              ssm:text-[35px]
                                               vsm:text-[30px]'
           >
             great textile network
