@@ -1,9 +1,9 @@
 import React from 'react'
 import backgroundImage from '../assets/pagethreebgimg.png'
-import fourpointseven from '../assets/4.7.png'
-import fifteenplus from '../assets/15+.png'
-import fiftysix from '../assets/56+.png'
-import fourtysevenk from '../assets/47k+.png'
+import fourpointseven from '../assets/fourpointseven.png'
+import fifteenplus from '../assets/fifteenplus.png'
+import fiftysix from '../assets/fiftysix.png'
+import fourtysevenk from '../assets/fourtysevenk.png'
 
 const PageFour = () => {
   return (
