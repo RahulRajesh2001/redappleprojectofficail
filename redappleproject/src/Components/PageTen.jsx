@@ -17,18 +17,18 @@ const PageTen = () => {
                                        vsm:w-[300px] vsm:h-[100px] vsm:mt-[30px]      '
         >
           <p
-            className='font-Lora font-normal lg:text-[50px] 
+            className='font-serif font-normal lg:text-[50px] 
                                               md:text-[40px]
-                                              sm:text-[45px]
-                                              vsm:text-[35px]'
+                                              sm:text-[40px]
+                                              vsm:text-[30px]'
           >
             Let's build a{' '}
           </p>
           <p
-            className='font-Lora font-normal  lg:text-[50px] 
+            className='font-serif font-normal  lg:text-[50px] 
                                               md:text-[40px]
-                                              sm:text-[45px]
-                                              vsm:text-[35px]'
+                                              sm:text-[40px]
+                                              vsm:text-[30px]'
           >
             great textile network
           </p>
