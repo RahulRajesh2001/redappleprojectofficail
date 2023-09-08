@@ -14,8 +14,8 @@ const RedApplePage = () => {
   return (
     <>
     <HomePage/>
-    <PageTwo/>
-    <PageThree/>
+     <PageTwo/>
+     {/*  <PageThree/>
     <PageFour/>
     <PageFive/>
     <PageSix/>
@@ -23,7 +23,7 @@ const RedApplePage = () => {
     <PageEight/> 
      <PageNine/>
     <PageTen/> 
-    
+     */}
     </>
   )
 }

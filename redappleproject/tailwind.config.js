@@ -7,7 +7,8 @@ export default {
     extend: {
       fontFamily:{
         Lora:['Lora','sans'],
-        Poppins:['Poppins', 'sans-serif']
+        Poppins:['Poppins', 'sans-serif'],
+        Forum:['Forum']
       },
       screens:{
         vsm:"320px",

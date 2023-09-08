@@ -16,7 +16,7 @@ const PageFour = () => {
     >
       <div className='flex flex-col justify-center items-center '>
         <div
-          className='text-[#ffff] font-Lora font-normal lg:text-[60px] lg:mt-[10px]
+          className='text-[#ffff] font-Forum font-normal lg:text-[60px] lg:mt-[10px]
                                                           md:text-[50px] md:mt-[20px]
                                                           sm:text-[40px] sm:mt-[15px]
                                                           vsm:text-[25px] vsm:mt-[20px]'
