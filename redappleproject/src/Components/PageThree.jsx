@@ -12,17 +12,17 @@ const PageThree = () => {
         <img
           src={curser}
           alt=''
-          className='absolute z-20 md:w-[300px] md:h-[300px] vsm:w-[250px] vsm:h-[250px] vvsm:w-[190px] vvsm:h-[190px]'
+          className='absolute z-20 lg:w-[400px] lg:h-[400px] md:w-[300px] md:h-[300px] vsm:w-[250px] vsm:h-[250px] vvsm:w-[190px] vvsm:h-[190px]'
         />
 
         <div className='absolute z-30 '>
-          <div className='font-Forum font-[400] vsm:text-[36px] vvsm:text-[30px]'>
+          <div className='font-Forum font-[400] vsm:text-[38px] vvsm:text-[30px]'>
             Find a Guide in the{' '}
           </div>
-          <div className='font-Forum font-[400] vsm:text-[36px] vvsm:text-[30px]'>
+          <div className='font-Forum font-[400] vsm:text-[38px] vvsm:text-[30px]'>
             World of Style &
           </div>
-          <div className='font-Forum font-[400] vsm:text-[36px] vvsm:text-[30px]'>
+          <div className='font-Forum font-[400] vsm:text-[38px] vvsm:text-[30px]'>
             Modern Trends
           </div>
         </div>
