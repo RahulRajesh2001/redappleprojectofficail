@@ -11,7 +11,8 @@ export default {
         Forum:['Forum']
       },
       screens:{
-        vsm:"320px",
+        vvsm:"250px",
+        vsm:"360px",
         ssm:"400px",
         sm:"640px",
         md:"768px",

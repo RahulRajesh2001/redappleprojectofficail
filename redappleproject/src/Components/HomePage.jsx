@@ -1,52 +1,38 @@
 import React from 'react'
 import Homepageimage from '../assets/Homepageimage.png'
+import greenround from '../assets/greenround.png'
+import arrowandlogo from '../assets/arrowandlogo.png'
 
 const HomePage = () => {
   const backgroundImageStyle = {
-    backgroundImage: `url(${Homepageimage})`, 
+    backgroundImage: `url(${Homepageimage})`,
     backgroundSize: 'cover',
-  };
+  }
   return (
-   
-        <div className='  flex relative justify-center items-center lg:w-[100%] lg:h-[750px]
-                                                                                md:w-[100%] md:h-[700px]
-                                                                                sm:w-[100%] sm:h-[700px]
-                                                                                ssm:w-[100%] ssm:h-[700px]
-                                                                                vsm:w-[100%] vsm:h-[700px]'>
-          <div
-          style={backgroundImageStyle}
-           className=" absolute z-10 lg:w-[100%] lg:h-[750px]
-                                                        md:w-[100%] md:h-[700px]
-                                                        sm:w-[100%] sm:h-[700px]
-                                                        ssm:w-[100%] ssm:h-[700px]
-                                                        vsm:w-[100%] vsm:h-[700px]">
-            
-          </div>
-          <div
-            className=' flex flex-col justify-center items-center  absolute z-20   lg:w-[100%] lg:h-[200px]
-                                                                                                 md:w-[100%] md:h-[200px] 
-                                                                                                 sm:w-[100%] sm:h-[200px]
-                                                                                                 ssm:w-[100%] ssm:h-[150px]
-                                                                                                 vsm:w-[100%] vsm:h-[150px]  
+    <div className='bg-green-100  flex  justify-center items-center w-[100%] h-screen '>
+      <div
+        style={backgroundImageStyle}
+        className='w-[100%] h-screen'
+      ></div>
+      <div className=' flex flex-col justify-center items-center  absolute z-20   w-[100%] sm:h-[200px] vvsm:h-[150px]'>
+        <p className='font-Forum font-normal text-[#ffff]   lg:text-[90px] md:text-[70px] sm:text-[60px] ssm:text-[40px] vvsm:text-[30px]'>
+          Your One-Stop Shop
+        </p>
+        <p className='font-Forum font-normal text-[#ffff]   lg:text-[90px] md:text-[70px] sm:text-[60px] ssm:text-[40px] vvsm:text-[30px]'>
+          for Wholesale Fashion
+        </p>
+      </div>
 
-                                                                                  
-             '
-          >
-            <p className='font-Forum font-normal text-[#ffff]   lg:text-[65px]
-                                                                   md:text-[60px] 
-                                                                   sm:text-[60px]
-                                                                   ssm:text-[35px] 
-                                                                   vsm:text-[28px] 
-                                                                                                 
-           '>Your One-Stop Shop</p>
-            <p className='font-Forum font-normal text-[#ffff] lg:text-[65px]
-                                                                   md:text-[60px] 
-                                                                   sm:text-[60px]
-                                                                   ssm:text-[35px] 
-                                                                   vsm:text-[28px]'>for Wholesale Fashion</p>
-          </div>
-        </div>
-    
+      {/* Logo */}
+      <div className=' flex justify-center items-center absolute -bottom-[75px]  z-30 w-[150px] h-[150px]'>
+        <img src={greenround} alt='' className='w-[100px] h-[100px]' />
+        <img
+          src={arrowandlogo}
+          alt=''
+          className=' absolute w-[130px] h-[130px]'
+        />
+      </div>
+    </div>
   )
 }
 
