@@ -1,228 +1,108 @@
-import React from 'react';
-import backgroundImage from '../assets/pageEightbgimg.png';
-import blackshade from '../assets/blackshade.png';
+import React from 'react'
+import backgroundImage from '../assets/pageEightbgimg.png'
+import blackshade from '../assets/blackshade.png'
 import pageEightfooter from '../assets/PageEightfooter.png'
 import vsmbgEightfooter from '../assets/vsmbackgroundimage.png'
-import image from '../assets/image.png';
+import image from '../assets/image.png'
 import truck from '../assets/truck.png'
 import money from '../assets/money.png'
 
-
 const PageEight = () => {
   return (
-    <div>
+    <div
+      className=' relative flex  justify-center items-center bg-cover w-[100%] sm:h-screen vvsm:h-[800px]  '
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
       <div
-        className=' relative lg:bg-cover lg:w-full lg:h-[760px]
-                                         md:w-full md:h-[700px]
-                                        sm:w-full sm:h-[650px] sm:block hideen
-                                        vsm:w-full vsm:h-[800px] vsm:bg-cover
-                              
-                                        '
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
+        className='absolute z-10 bg-cover w-[100%] sm:h-screen vvsm:h-[800px]'
+        style={{ backgroundImage: `url(${blackshade})`, opacity: 0.5 }}
+      ></div>
 
-      
-        <div
-          className='absolute z-10 lg:w-full lg:h-[760px]
-                                      md:w-full md:h-[700px]
-                                      vsm:w-full vsm:h-[800px]'
-          style={{ backgroundImage: `url(${blackshade})`, opacity: 0.5 }}
-        ></div>
+      <div className=' absolute z-20 font-Forum text-[#ffff]   md:text-[45px] sm:mb-0 ssm:text-[35px] vvsm:text-[32px] md:mb-[25px]  sm:-mt-[70px] vsm:mb-0 vsm:-mt-[270px] vvsm:mb-[300px]'>
+        Together, let’s create the{' '}
+      </div>
+      <div className=' absolute z-20 font-Forum text-[#ffff]   md:text-[45px] sm:mb-0 ssm:text-[35px] vvsm:text-[32px] vsm:mb-[190px] vvsm:mb-[230px] '>
+        next generation{' '}
+      </div>
+      <div className=' absolute z-20 font-Forum text-[#ffff]   md:text-[45px] sm:mb-0 ssm:text-[35px] vvsm:text-[32px] md:mt-[110px] sm:mt-[90px] vsm:mb-[100px]  vvsm:mb-[150px]'>
+        of textile network
+      </div>
 
-        <div className='flex justify-center '>
-          <div
-            className='flex flex-col justify-center items-center absolute z-50   lg:w-[800px] lg:h-[200px] lg:mt-[200px]
-                                                                                     md:w-[700px] md:h-[200px]  md:mt-[150px]
-                                                                                     sm:w-[600px] sm:h-[200px] sm:mt-[100px]
-                                                                                     vsm:w-[350px] vsm:h-[200px] vsm:mt-[80px]
-                                                                                    '
-          >
-            <div
-              className='font-serif font-normal text-[#ffff] lg:h-[60px] lg:text-[50px]
-                                                                  md:h-[50px] md:text-[40px]
-                                                                  sm:h-[40px] sm:text-[30px] sm:block
-                                                                  vsm:h-[40px] vsm:text-[27px] '
-            >
-              Together, let’s create the{' '}
+      {/* footer part */}
+
+      <div className=' bg-red-10 absolute z-20 bottom-0 w-[100%] h-[170px] sm:mb-0 vvsm:mb-[210px] '>
+        <img
+          src={pageEightfooter}
+          alt=''
+          className='absolute z-30 bottom-0 right-0 w-[90%] h-[170px] sm:block  vvsm:hidden '
+        />
+
+        <img
+          src={vsmbgEightfooter}
+          alt=''
+          className=' sm:hidden vvsm:w-[700px]   vvsm:h-[380px]'
+        />
+        <div className=' flex sm:flex-row justify-evenly items-center absolute   z-30  sm:w-[85%] sm:h-[80%] sm:mr-0   ssm:top-0 ssm:right-0    vvsm:flex-col vvsm:w-[90%] vvsm:h-[360px] vvsm:top-0 vvsm:right-0  vvsm:mt-[30px] vsm:mr-[20px] vvsm:mr-[15px]'>
+          {/* fotter division one */}
+          <div className=' flex flex-col justify-center  lg:w-[200px] md:w-[160px]  sm:w-[160px]  sm:border-b-0  ssm:w-[70%]  ssm:border-b-2 vvsm:w-[70%] vvsm:h-[100px] vvsm:border-b-2 '>
+            <div className=' font-Lora font-normal text-[#ffff]  lg:text-[35px] vvsm:text-[25px]'>
+              Benifits
             </div>
-            <div
-              className='font-serif font-normal text-[#ffff]  lg:h-[60px] lg:text-[50px]
-                                                                    md:h-[50px] md:text-[40px]
-                                                                    sm:h-[40px] sm:text-[30px]
-                                                                    vsm:h-[40px] vsm:text-[27px]'
-            >
-              next generation{' '}
-            </div>
-            <div
-              className='font-serif font-normal text-[#ffff] lg:h-[60px] lg:text-[50px]
-                                                                   md:h-[50px] md:text-[40px]
-                                                                   sm:h-[40px] sm:text-[30px]
-                                                                   vsm:h-[40px] vsm:text-[27px]'
-            >
-              of textile network
+            <div className='fontAdd text-[#ffff]  lg:text-[16px] sm:text-[14px] vvsm:text-[13px]'>
+              Get your reselling hassle free from no where
             </div>
           </div>
-        </div>
 
-        <div
-          className=' absolute z-20 lg:left-32   lg:bottom-0   lg:right-0
-                                      md:left-24   md:bottom-0   md:right-0
-                                      sm:left-[120px]   sm:bottom-0   sm:right-0
-                                      vsm:left-0    vsm:bottom-0  vsm:right-0'
-        >
-          <img
-            src={pageEightfooter}
-            alt=''
-            className='lg:w-[1400px]   lg:h-[200px]
-                                                                            md:w-[1200px]   md:h-[150px] 
-                                                                            sm:w-[650px]    sm:h-[140px] sm:block  hidden
+          <div className=' h-[50px]  border-r-[1px] vvsm:hidden sm:block'></div>
 
-                                                                            '
-          />
+          {/* footer division two */}
 
-<img
-            src={vsmbgEightfooter}
-            alt=''
-            className='lg:w-[1400px]   lg:h-[200px]
-                                                                            md:w-[1200px]   md:h-[150px] 
-                                                                            sm:w-[650px]    sm:h-[140px] sm:hidden block
-                                                                            vsm:w-[700px]     vsm:h-[400px]
-
-                                                                            '
-          />
-          
-
-          <div
-            className=' flex sm:flex-row justify-evenly items-center absolute   lg:w-[90%] lg:h-full  lg:top-0 lg:right-0 lg:mt-0   z-30 lg:mr-0
-                                                                               md:w-[90%] md:h-full md:top-0 md:right-0 md:mt-0 md:mr-0
-                                                                                sm:w-[90%] sm:h-full sm:top-0  sm:right-0 sm:mt-0 sm:mr-0
-                                                                                ssm:w-[95%] ssm:h-full ssm:top-0 ssm:right-0 ssm:mt-0 ssm:mr-[15px]
-                                                      vsm:flex-col vsm:w-[90%] vsm:h-[360px] vsm:top-0 vsm:right-0 vsm:mt-[30px] vsm:mr-[20px]'
-          >
-            <div
-              className=' flex flex-col justify-evenly   lg:w-[200px] lg:h-[120px]
-                                                            md:w-[160px] md:h-[100px]
-                                                           sm:w-[130px] sm:h-[100px] sm:border-b-0
-                                                           ssm:w-[70%] ssm:h-[100px] ssm:border-b-2
-                                                           vsm:w-[70%] vsm:h-[100px] vsm:border-b-2
-                                                          '
-            >
-              <div
-                className=' font-Lora font-normal text-[#ffff]  lg:text-[35px]
-                                                                          md:text-[25px]
-                                                                          sm:text-[23px]
-                                                                          ssm:text-[25px]
-                                                                          vsm:text-[25px]'
-              >
-                Benifits
-              </div>
-              <div
-                className='font-Poppins font-normal text-[#ffff]  lg:text-[16px] lg:mt-[5px]
-                                                                            md:text-[14px] md:mt-[5px]
-                                                                            sm:text-[12px] sm:mt-[5px]
-                                                                            ssm:text-[13px]
-                                                                            vsm:text-[13px]'
-              >
-                Get your reselling hassle free from no where
-              </div>
+          <div className='  lg:w-[200px]   md:w-[140px]  sm:w-[160px]  sm:border-b-0   vvsm:w-[70%] vvsm:h-[100px] vvsm:border-b-2'>
+            <div className='flex flex-col justify-center items-center '>
+              <img
+                src={money}
+                alt=''
+                className=' md:w-[50px] md:h-[50px] sm:w-[40px] sm:h-[40px] vvsm:w-[35px] vvsm:h-[35px]'
+              />
+              <p className='font-Lora font-normal text-[#ffff]  sm:text-[16px] ssm:text-[15px] ssm:mt-[10px] vvsm:text-[18px] vvsm:mt-[5px]'>
+                No Capital Needed
+              </p>
             </div>
+          </div>
 
-            <div
-              className='  lg:w-[200px] lg:h-[120px] 
-                                          md:w-[140px] md:h-[100px]
-                                          sm:w-[70%] sm:h-[100px] sm:border-b-0
-                                          ssm:w-[70%] ssm:h-[100px] ssm:border-b-2 
-                                          vsm:w-[70%] vsm:h-[100px] vsm:border-b-2'
-            >
-              <div className='flex flex-col justify-center items-center '>
-                <img
-                  src={money}
-                  alt=''
-                  className='lg:w-[50px] lg:h-[50px]
-                                  md:w-[50px] md:h-[50px]
-                                  sm:w-[40px] sm:h-[40px]
-                                  ssm:w-[35px] ssm:h-[35px]
-                                  vsm:w-[35px] vsm:h-[35px]'
-                />
-                <p
-                  className='font-Lora font-normal text-[#ffff] lg:text-[16px] lg:mt-[15px]
-                                                                        md:text-[15px] md:mt-[10px]
-                                                                        sm:text-[16px] sm:mt-[8px]
-                                                                        ssm:text-[15px] ssm:mt-[10px]
-                                                                        vsm:text-[18px] vsm:mt-[5px]'
-                >
-                  No Capital Needed
-                </p>
-              </div>
-            </div>
+          <div className=' h-[50px]  border-r-[1px] vvsm:hidden sm:block'></div>
+          {/* footer division three */}
 
-            <div
-              className='  lg:w-[250px] lg:h-[150px]
-                                          md:w-[200px] md:h-[120px]
-                                          sm:w-[200px] sm:h-[130px]
-                                          ssm:w-[70%] ssm:h-[130px]
-                                          vsm:w-[70%] vsm:[130px]'
-            >
-              <div className='flex flex-col justify-center items-center'>
-                <img
-                  src={truck}
-                  alt=''
-                  className='lg:w-[50px] lg:h-[50px] 
-                                 md:w-[40px] md:h-[40px]
-                                 sm:w-[40px] sm:h-[40px]
-                                 ssm:w-[40px] ssm:h-[40px]
-                                 vsm:w-[40px] vsm:h-[40px]'
-                />
-                <p
-                  className='font-Lora font-normal text-[#ffff] lg:text-[22px]
-                                                                        md:text-[16px]
-                                                                        sm:text-[17px]
-                                                                        ssm:text-[17px]
-                                                                        vsm:text-[17px]'
-                >
-                  Drop shipping facility
-                </p>
-                <p
-                  className=' font-Poppins font-normal text-[#ffff] lg:text-[16px] lg:w-[250px] lg:mt-[5px] lg:ml-[40px]
-                                                                          md:text-[13px] md:w-[200px] md:mt-[5px] md:ml-[40px]
-                                                                          sm:text-[13px] sm:w-[200px] sm:mt-[5px] sm:ml-[40px]
-                                                                          ssm:text-[13px]
-                                                                          vsm:text-[13px] vsm:w-[200px] vsm:mt-[5px]'
-                >
-                  All popular fashion designers products are available on our
-                  all outlets.
-                </p>
-              </div>
+          <div className='  lg:w-[250px]  sm:w-[160px] sm:h-[100px]  vvsm:w-[70%] vvvsm:h-[130px]'>
+            <div className='flex flex-col justify-center items-center'>
+              <img
+                src={truck}
+                alt=''
+                className=' vvsm:w-[40px] vvsm:h-[40px]'
+              />
+              <p className='font-Lora font-normal text-[#ffff] lg:text-[20px] vvsm:text-[17px]'>
+                Drop shipping facility
+              </p>
+              <p className=' fontAdd text-[#ffff]  vvsm:text-[13px] '>
+                All popular on our all outlets.
+              </p>
             </div>
-            <div
-              className=' lg:w-[200px] lg:h-[120px]
-                                          md:w-[130px] md:h-[80px]
-                                          sm:w-[100px] sm:h-[60px] sm:block hidden
-                                          '
-            >
-              <div className='flex flex-col  justify-center items-center  '>
-                <img
-                  src={image}
-                  alt=''
-                  className='lg:w-[50px] lg:h-[50px]
-                                  md:w-[40px] md:h-[40px]
-                                  sm:w-[40px] sm:h-[40px]'
-                />
-                <p
-                  className='font-Lora font-normal text-[#ffff] lg:text-[16px] lg:mt-[10px]
-                                                                        md:text-[15px] md:mt-[5px]
-                                                                        sm:text-[16px] sm:mt-[5px] 
-                                                                        '
-                >
-                  Use our Image
-                </p>
-              </div>
+          </div>
+
+          <div className=' h-[50px]  border-r-[1px] vvsm:hidden sm:block'></div>
+
+          {/* footer division four */}
+          <div className=' lg:w-[200px]  md:w-[130px]  sm:w-[100px] sm:h-[100px] sm:block hidden '>
+            <div className='flex flex-col  justify-center items-center  '>
+              <img src={image} alt='' className='sm:w-[40px] sm:h-[40px]' />
+              <p className='font-Lora font-normal text-[#ffff]  sm:text-[16px] sm:mt-[15px] '>
+                Use our Image
+              </p>
             </div>
           </div>
         </div>
       </div>
-      </div>
-   
+    </div>
   )
 }
 

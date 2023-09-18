@@ -9,7 +9,7 @@ const HomePage = () => {
     backgroundSize: 'cover',
   }
   return (
-    <div className='bg-green-100  flex  justify-center items-center w-[100%] h-screen '>
+    <div className='flex  justify-center items-center w-[100%] h-screen '>
       <div
         style={backgroundImageStyle}
         className='w-[100%] h-screen'
