@@ -8,7 +8,7 @@ export default {
       fontFamily:{
         Lora:['Lora','sans'],
         Poppins:['Poppins', 'sans-serif'],
-        Forum:['Forum']
+        Forum:['Forum','curseive']
       },
       screens:{
         vvsm:"250px",
@@ -18,6 +18,9 @@ export default {
         md:"768px",
         lg:"1024px",
         xl:"1280px"
+      },
+      animation: {
+        "spin-slow": 'spin 20s linear infinite', // Adjust the duration (4s) as needed for a slower rotation
       },
     },
   },
